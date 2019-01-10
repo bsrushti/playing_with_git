@@ -1,0 +1,55 @@
+.ninja {
+  height: 5px;
+  width: 0px;
+}
+
+.path {
+  z-index: -1;
+  color: black;
+  background-color: white;
+}
+
+table,
+tr,
+td {
+  border: 1px solid white;
+}
+
+div {
+  text-align: center;
+}
+
+td {
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-size: 24px;
+}
+
+.boardTd:hover {
+  cursor: pointer;
+}
+
+button {
+  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.maze {
+  height: auto;
+  position: absolute;
+  table-layout: fixed;
+  top: 200px;
+  left: 500px;
+  width: auto;
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+
+body {
+  background-color: black;
+}
